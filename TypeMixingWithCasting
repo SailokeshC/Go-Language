@@ -1,0 +1,14 @@
+package main
+import "fmt"
+
+func main(){
+    var a int16 = 5
+    var b int32
+    b = int32(a)
+    fmt.Printf("The value of a is : %d \n",a)
+    fmt.Printf("The value of b is : %d \n",b)
+}
+
+Output:
+The value of a is : 5 
+The value of b is : 5 
