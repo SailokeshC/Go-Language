@@ -1,0 +1,11 @@
+package main
+
+func main(){
+    var a int16 = 5
+    var b int32
+    b = a+a
+    b = b+5
+}
+
+Output: error
+cannot use a + a (type int16) as type int32 in assignment
