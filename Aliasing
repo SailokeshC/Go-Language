@@ -1,0 +1,26 @@
+//Normal program
+package main
+import "fmt"
+
+var c int
+
+func main(){
+    var a,b = 3,4
+    c := a+b
+    fmt.Printf("The value of c is : %d \n",c)
+}
+
+//Aliasing program
+package main
+import "fmt"
+
+type TX int
+
+func main(){
+    var a,b TX = 3,4
+    c := a+b
+    fmt.Printf("The value of c is : %d \n",c)
+}
+
+Output:
+The value of c is : 7
